@@ -33,7 +33,7 @@
       "duration_ms": 8000,
       "elements": [
         { "kind": "text", "x": 20, "y": 20, "text": "{goodmorning}", "size": 24 },
-        { "kind": "text", "x": 20, "y": 60, "text": "{random_message}", "size": 16 }
+        { "kind": "text", "x": 20, "y": 160, "text": "{random_message}", "size": 24 }
       ]
     },
 
