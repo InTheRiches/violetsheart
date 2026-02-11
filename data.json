@@ -1,20 +1,84 @@
 {
-  "start_date": "2025-10-30",
-  "title": "Hi Violet <3",
-  "messages": [
-    "You make everything better",
-    "Proud of you!!",
-    "I love you more every day",
-    "Reminder: you're my favorite person EVER!!!!",
-    "You're AMAZING",
-    "I love you",
-    "You got this!",
-    "Drink water",
-    "Thinking of you...",
-    "I miss you :("
+  "meta": {
+    "version": "1.0",
+    "generated": "2026-02-11"
+  },
+
+  "goodmornings": [
+    "Good morning, sunshine!",
+    "Morning, beautiful — here's to a great day!",
+    "Wake up, sleepyhead — love you!",
+    "A new day, a new hug waiting for you.",
+    "Hey love — coffee and kisses?"
   ],
-  "images": [
-    "https://intheriches.github.io/violetsheart/photo.png"
+
+  "goodnights": [
+    "Good night — dream sweet.",
+    "Sleep tight, I love you.",
+    "Counting the stars and thinking of you.",
+    "Rest well — see you in my dreams."
   ],
-  "rotate_seconds": 20
+
+  "random_messages": [
+    "You make every day better.",
+    "I believe in you.",
+    "Can't wait to hold you later.",
+    "You are my favorite hello and hardest goodbye.",
+    "Here's a silly thought: we're the perfect weirdos."
+  ],
+
+  "pages": [
+    {
+      "id": "goodmorning",
+      "duration_ms": 8000,
+      "elements": [
+        { "kind": "text", "x": 20, "y": 20, "text": "{goodmorning}", "size": 24 },
+        { "kind": "text", "x": 20, "y": 60, "text": "{random_message}", "size": 16 }
+      ]
+    },
+
+    {
+      "id": "frame_photo",
+      "duration_ms": 6000,
+      "elements": [
+        { "kind": "image", "path": "/photo1.bmp", "rotation": 90 },
+        { "kind": "line", "x": 10, "y": 10, "w": 380, "h": 1 },
+        { "kind": "text", "x": 30, "y": 20, "text": "Our day out", "size": 16 }
+      ]
+    },
+
+    {
+      "id": "gallery_1",
+      "duration_ms": 6000,
+      "elements": [
+        { "kind": "image", "path": "/photo.bmp", "rotation": 90 }
+      ]
+    },
+
+    {
+      "id": "gallery_2",
+      "duration_ms": 6000,
+      "elements": [
+        { "kind": "image", "path": "/photo2.bmp", "rotation": 90 }
+      ]
+    },
+
+    {
+      "id": "frame_message",
+      "duration_ms": 7000,
+      "elements": [
+        { "kind": "line", "x": 8, "y": 8, "w": 384, "h": 1 },
+        { "kind": "text", "x": 20, "y": 30, "text": "You are loved.", "size": 18 },
+        { "kind": "circle", "x": 300, "y": 150, "w": 30 }
+      ]
+    },
+
+    {
+      "id": "goodnight",
+      "duration_ms": 8000,
+      "elements": [
+        { "kind": "text", "x": 50, "y": 140, "text": "{goodnight}", "size": 24 }
+      ]
+    }
+  ]
 }
