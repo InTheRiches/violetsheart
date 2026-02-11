@@ -43,7 +43,7 @@
       "elements": [
         { "kind": "image", "path": "/photo1.bmp", "rotation": 90 },
         { "kind": "line", "x": 10, "y": 10, "w": 380, "h": 1 },
-        { "kind": "text", "x": 30, "y": 20, "text": "Our day out", "size": 16 }
+        { "kind": "text", "x": 30, "y": 20, "text": "Arts and crafts", "size": 16 }
       ]
     },
 
