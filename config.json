@@ -12,6 +12,12 @@
   "goodnight_layout": [
     {"type": "image", "content": "goodnight", "x": 0, "y": 0, "color": "white"},
     {"type": "text", "content": "Hey Violet!", "x": 20, "y": 20},
-    {"type": "text", "content": "Love you!!", "x": 20, "y": 60}
+    {"type": "text", "content": "Love you!!", "x": 20, "y": 60},
+    {"type": "text", "content": "This is just a simple test", "x": 20, "y": 90},
+    {"type": "text", "content": "making sure all of the", "x": 20, "y": 120},
+    {"type": "text", "content": "chars are working fine", "x": 20, "y": 150},
+    {"type": "text", "content": "The quick brown fox", "x": 20, "y": 180},
+    {"type": "text", "content": "Jumps over the lazy", "x": 20, "y": 210},
+    {"type": "text", "content": "dog?", "x": 20, "y": 240}
   ]
 }
