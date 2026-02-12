@@ -7,7 +7,7 @@
   "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
   "night_pool": ["Sweet dreams!", "Sleep tight."],
   "frame_pool": [
-    {"type": "text", "content": "I love you!", "duration_min": 60},
+    {"type": "text", "content": "I love you!", "duration_min": 60}
   ],
   "goodnight_layout": [
     {"type": "image", "content": "goodnight", "x": 0, "y": 0, "color": "white"},
