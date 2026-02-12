@@ -1,14 +1,16 @@
 {
-  "version": 102,
+  "version": 103,
   "config": { "sync_time": "04:00", "timezone_offset": -5 },
   "assets": [
-    {"id": "bg_heart", "url": "...", "hash": "a1b2"},
-    {"id": "photo_1", "url": "...", "hash": "c3d4"}
+    {"id": "goodnight", "url": "https://intheriches.github.io/violetsheart/backgrounds/goodnight.bmp", "hash": "c3d4"}
   ],
   "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
   "night_pool": ["Sweet dreams!", "Sleep tight."],
   "frame_pool": [
     {"type": "text", "content": "I love you!", "duration_min": 60},
-    {"type": "image", "content": "photo_1", "duration_min": 30}
+  ],
+  "goodnight_layout": [
+    {"type": "image", "content": "goodnight", "x": 0, "y": 0, "color": "white"},
+    {"type": "text", "content": "I love you!", "x": 20, "y": 20}
   ]
 }
