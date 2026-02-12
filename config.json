@@ -1,5 +1,5 @@
 {
-  "version": 105,
+  "version": 106,
   "config": { "sync_time": "04:00", "timezone_offset": -5 },
   "assets": [
     {"id": "goodnight", "url": "https://intheriches.github.io/violetsheart/backgrounds/goodnight.bmp", "hash": "c3d4"}
