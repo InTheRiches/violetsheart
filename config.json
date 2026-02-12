@@ -1,5 +1,5 @@
 {
-  "version": 104,
+  "version": 105,
   "config": { "sync_time": "04:00", "timezone_offset": -5 },
   "assets": [
     {"id": "goodnight", "url": "https://intheriches.github.io/violetsheart/backgrounds/goodnight.bmp", "hash": "c3d4"}
@@ -11,6 +11,6 @@
   ],
   "goodnight_layout": [
     {"type": "image", "content": "goodnight", "x": 0, "y": 0, "color": "white"},
-    {"type": "text", "content": "ACE FED", "x": 20, "y": 20}
+    {"type": "text", "content": "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG?!", "x": 20, "y": 20}
   ]
 }
