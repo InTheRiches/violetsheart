@@ -7,13 +7,13 @@
             "morning_start": "04:00",
             "morning_end": "8:00",
             "night_start": "22:00",
-            "frame_duration": 60
+            "frame_duration": 10
         },
         "weekend": {
             "morning_start": "04:00",
             "morning_end": "8:00",
             "night_start": "22:00",
-            "frame_duration": 60
+            "frame_duration": 10
         }
     },
     "assets": [
@@ -24,7 +24,10 @@
     "message_pool": ["Have a great day!", "Thinking of you!", "You are AMAZING!!"],
     "frame_pool": [
         [
-            {"type": "text", "content": "I love you!", "duration_min": 60}
+            {"type": "text", "content": "I love you!"}
+        ],
+        [
+            {"type": "text", "content": "I love you!"}
         ]
     ],
     "goodnight_layouts": [
