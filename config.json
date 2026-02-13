@@ -24,10 +24,31 @@
     "message_pool": ["Have a great day!", "Thinking of you!", "You are AMAZING!!"],
     "frame_pool": [
         [
-            {"type": "text", "content": "I love you!"}
+            {"type": "text", "content": "I love you!", "x": 20, "y": 30}
         ],
         [
-            {"type": "text", "content": "I love you!"}
+            {"type": "text", "content": "I miss you... :(", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "You are the best!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "Can't wait to see you!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "You are my sunshine!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "You make me so happy!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "I hope you have a GREAT DAY!!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "You are the BEST THING in my life!", "x": 20, "y": 30}
+        ],
+        [
+            {"type": "text", "content": "I am SO LUCKY to have you!", "x": 20, "y": 30}
         ]
     ],
     "goodnight_layouts": [
@@ -41,13 +62,13 @@
         ]
     ],
     "morning_layouts": [
-    [
-        {"type": "image", "content": "c3d4", "x": 0, "y": 0, "color": "white"},
-        {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
-        {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
-        {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
-        {"type": "text", "content": "random message:", "x": 20, "y": 130},
-        {"type": "text", "content": "${morning_pool}", "x": 20, "y": 160}
+        [
+            {"type": "image", "content": "c3d4", "x": 0, "y": 0, "color": "white"},
+            {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
+            {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
+            {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
+            {"type": "text", "content": "random message:", "x": 20, "y": 130},
+            {"type": "text", "content": "${morning_pool}", "x": 20, "y": 160}
+        ]
     ]
-  ]
 }
