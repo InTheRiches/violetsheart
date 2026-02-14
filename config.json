@@ -1,7 +1,7 @@
 {
     "version": 108,
-    "config": { 
-        "sync_time": "04:00", 
+    "config": {
+        "sync_time": "04:00",
         "timezone_offset": -5,
         "weekday": {
             "morning_start": "04:00",
@@ -17,53 +17,35 @@
         }
     },
     "assets": [
-        {"id": "c3d4", "url": "https://intheriches.github.io/violetsheart/backgrounds/goodnight.bmp", "hash": "c3d4"}
+        {"id": "2dpo", "url": "https://intheriches.github.io/violetsheart/assets/2dpo.bmp", "hash": "c3d4"},
+        {"id": "7ag8", "url": "https://intheriches.github.io/violetsheart/assets/7ag8.bmp", "hash": "c3d4"},
+        {"id": "aer7", "url": "https://intheriches.github.io/violetsheart/assets/aer7.bmp", "hash": "c3d4"},
+        {"id": "bc4c", "url": "https://intheriches.github.io/violetsheart/assets/bc4c.bmp", "hash": "c3d4"},
+        {"id": "eiu4", "url": "https://intheriches.github.io/violetsheart/assets/eiu4.bmp", "hash": "c3d4"},
+        {"id": "k84m", "url": "https://intheriches.github.io/violetsheart/assets/k84m.bmp", "hash": "c3d4"}
     ],
     "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
     "night_pool": ["Sweet dreams!", "Sleep tight."],
     "message_pool": ["Have a great day!", "Thinking of you!", "You are AMAZING!!"],
     "frame_pool": [
         [
-            {"type": "text", "content": "I love you!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "I miss you... :(", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "You are the best!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "Can't wait to see you!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "You are my sunshine!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "You make me so happy!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "I hope you have a GREAT DAY!!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "You are the BEST THING in my life!", "x": 20, "y": 30}
-        ],
-        [
-            {"type": "text", "content": "I am SO LUCKY to have you!", "x": 20, "y": 30}
+            {"type": "image", "content": "2dpo", "x": 0, "y": 0}
         ]
     ],
     "goodnight_layouts": [
         [
-            {"type": "image", "content": "c3d4", "x": 0, "y": 0, "color": "white"},
             {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
             {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
             {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
             {"type": "text", "content": "random message:", "x": 20, "y": 130},
             {"type": "text", "content": "${night_pool}", "x": 20, "y": 160}
+        ],
+        [
+            {"type": "image", "content": "2dpo", "x": 0, "y": 0}
         ]
     ],
     "morning_layouts": [
         [
-            {"type": "image", "content": "c3d4", "x": 0, "y": 0, "color": "white"},
             {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
             {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
             {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
