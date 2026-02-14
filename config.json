@@ -1,19 +1,19 @@
 {
-    "version": 110,
-    "config": {
-        "sync_time": "04:00",
+    "version": 111,
+    "config": { 
+        "sync_time": "04:00", 
         "timezone_offset": -5,
         "weekday": {
             "morning_start": "04:00",
             "morning_end": "8:00",
             "night_start": "22:00",
-            "frame_duration": 10
+            "frame_duration": 60
         },
         "weekend": {
             "morning_start": "04:00",
-            "morning_end": "8:00",
+            "morning_end": "11:00",
             "night_start": "22:00",
-            "frame_duration": 10
+            "frame_duration": 60
         }
     },
     "assets": [
@@ -22,35 +22,61 @@
         {"id": "aer7", "url": "https://intheriches.github.io/violetsheart/assets/aer7.bmp", "hash": "c3d4"},
         {"id": "bc4c", "url": "https://intheriches.github.io/violetsheart/assets/bc4c.bmp", "hash": "c3d4"},
         {"id": "eiu4", "url": "https://intheriches.github.io/violetsheart/assets/eiu4.bmp", "hash": "c3d4"},
-        {"id": "k84m", "url": "https://intheriches.github.io/violetsheart/assets/k84m.bmp", "hash": "c3d4"}
+        {"id": "k84m", "url": "https://intheriches.github.io/violetsheart/assets/k84m.bmp", "hash": "c3d4"},
+        {"id": "y3P9", "url": "https://intheriches.github.io/violetsheart/assets/frames/y3P9.bmp", "hash": "c3d4"},
+        {"id": "6yir", "url": "https://intheriches.github.io/violetsheart/assets/frames/6yir.bmp", "hash": "c3d4"},
+        {"id": "aecl", "url": "https://intheriches.github.io/violetsheart/assets/frames/aecl.bmp", "hash": "c3d4"},
+        {"id": "8h4l", "url": "https://intheriches.github.io/violetsheart/assets/frames/8h4l.bmp", "hash": "c3d4"},
+        {"id": "32ae", "url": "https://intheriches.github.io/violetsheart/assets/frames/32ae.bmp", "hash": "c3d4"},
+        {"id": "be2a", "url": "https://intheriches.github.io/violetsheart/assets/frames/be2a.bmp", "hash": "c3d4"},
+        {"id": "oer5", "url": "https://intheriches.github.io/violetsheart/assets/frames/oer5.bmp", "hash": "c3d4"}
     ],
     "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
     "night_pool": ["Sweet dreams!", "Sleep tight."],
     "message_pool": ["Have a great day!", "Thinking of you!", "You are AMAZING!!"],
     "frame_pool": [
         [
-            {"type": "image", "content": "2dpo", "x": 0, "y": 0}
+            {"type": "image", "content": "y3P9", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "6yir", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "aecl", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "8h4l", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "32ae", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "be2a", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "oer5", "x": 0, "y": 0}
         ]
     ],
     "goodnight_layouts": [
         [
-            {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
-            {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
-            {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
-            {"type": "text", "content": "random message:", "x": 20, "y": 130},
-            {"type": "text", "content": "${night_pool}", "x": 20, "y": 160}
+            {"type": "image", "content": "2dpo", "x": 0, "y": 0}
         ],
         [
-            {"type": "image", "content": "2dpo", "x": 0, "y": 0}
+            {"type": "image", "content": "aer7", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "k84m", "x": 0, "y": 0}
         ]
     ],
     "morning_layouts": [
         [
-            {"type": "text", "content": "Hey Violet!", "x": 20, "y": 30},
-            {"type": "text", "content": "Love you!!", "x": 20, "y": 70},
-            {"type": "text", "content": "Below this is a", "x": 20, "y": 103},
-            {"type": "text", "content": "random message:", "x": 20, "y": 130},
-            {"type": "text", "content": "${morning_pool}", "x": 20, "y": 160}
+            {"type": "image", "content": "7ag8", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "bc4c", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "eiu4", "x": 0, "y": 0}
         ]
     ]
 }
