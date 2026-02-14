@@ -1,5 +1,6 @@
 {
-    "version": 111,
+    "version": 112,
+    "relationship_start": "2019-02-14",
     "config": { 
         "sync_time": "04:00", 
         "timezone_offset": -5,
@@ -78,5 +79,14 @@
         [
             {"type": "image", "content": "eiu4", "x": 0, "y": 0}
         ]
+    ]
+    ,
+    "special_days": [
+        {
+            "date": "02-14",
+            "frame": [
+                {"type": "image", "content": "oer5", "x": 0, "y": 0}
+            ]
+        }
     ]
 }
