@@ -30,32 +30,15 @@
         {"id": "8h4l", "url": "https://intheriches.github.io/violetsheart/assets/frames/8h4l.bmp", "hash": "c3d4"},
         {"id": "32ae", "url": "https://intheriches.github.io/violetsheart/assets/frames/32ae.bmp", "hash": "c3d4"},
         {"id": "be2a", "url": "https://intheriches.github.io/violetsheart/assets/frames/be2a.bmp", "hash": "c3d4"},
-        {"id": "oer5", "url": "https://intheriches.github.io/violetsheart/assets/frames/oer5.bmp", "hash": "c3d4"}
+        {"id": "oer5", "url": "https://intheriches.github.io/violetsheart/assets/frames/oer5.bmp", "hash": "c3d4"},
+        {"id": "bj74", "url": "https://intheriches.github.io/violetsheart/assets/photos/bj74.bmp", "hash": "c3d4"}
     ],
     "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
     "night_pool": ["Sweet dreams!", "Sleep tight."],
     "message_pool": ["Have a great day!", "Thinking of you!", "You are AMAZING!!"],
     "frame_pool": [
         [
-            {"type": "image", "content": "y3P9", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "6yir", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "aecl", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "8h4l", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "32ae", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "be2a", "x": 0, "y": 0}
-        ],
-        [
-            {"type": "image", "content": "oer5", "x": 0, "y": 0}
+            {"type": "image", "content": "bj74", "x": 0, "y": 0}
         ]
     ],
     "goodnight_layouts": [
