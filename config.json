@@ -1,5 +1,5 @@
 {
-    "version": 114,
+    "version": 115,
     "relationship_start": "2025-11-13",
     "config": { 
         "sync_time": "04:00", 
@@ -31,7 +31,11 @@
         {"id": "32ae", "url": "https://intheriches.github.io/violetsheart/assets/frames/32ae.bmp", "hash": "c3d4"},
         {"id": "be2a", "url": "https://intheriches.github.io/violetsheart/assets/frames/be2a.bmp", "hash": "c3d4"},
         {"id": "oer5", "url": "https://intheriches.github.io/violetsheart/assets/frames/oer5.bmp", "hash": "c3d4"},
-        {"id": "bj74", "url": "https://intheriches.github.io/violetsheart/assets/photos/bj74.bmp", "hash": "c3d4"}
+        {"id": "bj74", "url": "https://intheriches.github.io/violetsheart/assets/photos/bj74.bmp", "hash": "c3d4"},
+        {"id": "b734", "url": "https://intheriches.github.io/violetsheart/assets/photos/b734.bmp", "hash": "c3d4"},
+        {"id": "as7h", "url": "https://intheriches.github.io/violetsheart/assets/photos/as7h.bmp", "hash": "c3d4"},
+        {"id": "91gi", "url": "https://intheriches.github.io/violetsheart/assets/photos/91gi.bmp", "hash": "c3d4"},
+        {"id": "8ca1", "url": "https://intheriches.github.io/violetsheart/assets/photos/8ca1.bmp", "hash": "c3d4"}
     ],
     "morning_pool": ["Good morning, sunshine!", "Wakey wakey!"],
     "night_pool": ["Sweet dreams!", "Sleep tight."],
@@ -39,7 +43,37 @@
     "frame_pool": [
         [
             {"type": "image", "content": "bj74", "x": 0, "y": 0}
-        ]
+        ],
+        [
+            {"type": "image", "content": "b734", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "as7h", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "91gi", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "8ca1", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "6yir", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "aecl", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "8h4l", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "32ae", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "be2a", "x": 0, "y": 0}
+        ],
+        [
+            {"type": "image", "content": "oer5", "x": 0, "y": 0}
+        ],
     ],
     "goodnight_layouts": [
         [
